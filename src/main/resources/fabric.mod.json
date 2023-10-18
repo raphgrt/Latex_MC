@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "first_mod",
+  "version": "${version}",
+  "name": "Mine_Mod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/raphael/Mine_Mod"
+  },
+  "license": "unlicense",
+  "icon": "assets/first_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "fr.raphael.first_mod.client.Mine_ModClient"
+    ],
+    "main": [
+      "fr.raphael.first_mod.Mine_Mod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
